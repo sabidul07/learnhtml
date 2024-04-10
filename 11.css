@@ -1,0 +1,7 @@
+#parent{
+border: 1px solid red;
+cursor: zoom-out;
+}
+#child{
+    border: 1px solid red;
+}

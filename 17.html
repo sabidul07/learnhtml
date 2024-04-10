@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  background: lightgray;
+  height: 52px;  
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: 1px;
+  height: 23px;
+}
+.redbox{
+    position: absolute;
+    background-color: aqua;
+    width: 35%;
+    right: 154px;
+    height: 27px;
+    right: 234px;
+top:23px;
+}
+</style>
+</head>
+<body>
+
+<h1>Overlapping elements</h1>
+
+<p>If two positioned elements overlap each other without a z-index specified,
+the element defined last in the HTML code will be shown on top:</p>
+
+<div class="container">
+  <div class="black-box">Black box</div>
+  <div class="gray-box">Gray box</div>
+  <div class="green-box">Green box</div>
+  <div class="redbox"> red box </div>
+</div>
+
+</body>
+</html>
+
